@@ -20,7 +20,7 @@ public class PostServlet extends HttpServlet {
         writer.println("Age: " + request.getParameter("age"));
     }//to do after 405
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
         response.setCharacterEncoding("UTF-8");
         PrintWriter writer = response.getWriter();
