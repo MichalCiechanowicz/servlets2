@@ -34,5 +34,10 @@
 <a href="/servlets2/JspHelloWorld.jsp">Strona JSP</a>
 <br>
 <hr>
+<h3> Servlet 5: Get and Post</h3>
+<a href="/servlets2/getServlet">Get</a><br>
+<a href="/servlets2/getPost.html">Html</a><br>
+<a href="/servlets2/postServlet">Post</a>
+<hr>
 </body>
 </html>
