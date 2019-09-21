@@ -11,7 +11,8 @@ import java.io.PrintWriter;
 
 @WebServlet(name = "HelloServlet",
         urlPatterns = {"/hello", "/hi", "/Hello"},
-        initParams = {@WebInitParam(name = "who", value = "Wolrd"), @WebInitParam(name = "times", value = "5")},
+        initParams = {@WebInitParam(name = "who", value = "World"),
+                      @WebInitParam(name = "times", value = "5")},
         loadOnStartup = 1)
 
 public class ConfigurationServlet extends HttpServlet {
@@ -24,6 +25,6 @@ public class ConfigurationServlet extends HttpServlet {
         PrintWriter writer = response.getWriter();
         response.setContentType("text/html");
         writer.println("<h2>Hello, " + who + "</h2><br>");
-        writer.println("<h2>Hello, "+ whoInit+ "(from init parm)</h2>");
+        writer.println("<h2>Hello, " + whoInit + "(from init parm)</h2>");
     }
 }
