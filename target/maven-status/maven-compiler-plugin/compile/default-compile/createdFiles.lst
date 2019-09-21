@@ -1,4 +1,6 @@
+pl\sda\servlets\third\HelloFilter.class
 pl\sda\servlets\first\ConfigurationServlet.class
 pl\sda\servlets\second\ClientRedirectServlet.class
+pl\sda\servlets\third\FilterServlet.class
 pl\sda\servlets\second\RedirectsServlet.class
 pl\sda\servlets\second\ServerRidirectServlet.class

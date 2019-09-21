@@ -19,5 +19,15 @@
 <a href="/servlets2/clientRedirect">Po stronie Clienta</a><br>
 <a href="/servlets2/serverRedirect">Po stronie Servera</a><br>
 <hr>
+<h3> Servlet 3: Filter</h3>
+<a href="/servlets2/filter"> Domyslne przywitanie bez parametru</a><br>
+<br>Z parametrem<br><br>
+<form action="/servlets2/filter"
+      method="get">
+    User:
+    <input type="text" name="user"><br>
+    <input type="submit" name="send"><br>
+</form><br>
+<hr>
 </body>
 </html>
