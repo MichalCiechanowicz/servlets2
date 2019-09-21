@@ -21,13 +21,18 @@
 <hr>
 <h3> Servlet 3: Filter</h3>
 <a href="/servlets2/filter"> Domyslne przywitanie bez parametru</a><br>
-<br>Z parametrem<br><br>
+<br>Z parametrem<br>
 <form action="/servlets2/filter"
       method="get">
     User:
     <input type="text" name="user"><br>
     <input type="submit" name="send"><br>
-</form><br>
+</form>
+<hr>
+<h3> Servlet 4: JSP</h3>
+<a href="/servlets2/jsp">Przekierowanie z servletu</a><br>
+<a href="/servlets2/JspHelloWorld.jsp">Strona JSP</a>
+<br>
 <hr>
 </body>
 </html>

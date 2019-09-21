@@ -6,7 +6,7 @@
 
   <groupId>com.sda.pl</groupId>
   <artifactId>servlets2</artifactId>
-  <version>0.3-SNAPSHOT</version>
+  <version>0.4-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>servlets2 Maven Webapp</name>
