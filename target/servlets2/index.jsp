@@ -12,8 +12,12 @@
 <FORM ACTION="/servlets2/hi" METHOD="get">
     Name:
     <input type="text" name="who"><br>
-    <input type="submit" value="Send">
+    <input type="submit" value="Send"><br>
 </FORM>
+<hr>
+<h3> Servlet 2: Redirects</h3>
+<a href="/servlets2/clientRedirect">Po stronie Clienta</a><br>
+<a href="/servlets2/serverRedirect">Po stronie Servera</a><br>
 <hr>
 </body>
 </html>
