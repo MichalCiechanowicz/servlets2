@@ -7,4 +7,5 @@ pl\sda\servlets\second\ServerRidirectServlet.class
 pl\sda\servlets\third\HelloFilter.class
 pl\sda\servlets\first\ConfigurationServlet.class
 pl\sda\servlets\third\FilterServlet.class
+pl\sda\servlets\seven\SessionServlet.class
 pl\sda\servlets\four\JSPHelloWorld.class

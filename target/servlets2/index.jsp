@@ -41,5 +41,7 @@
 <h3>Servlet 6: Coockie</h3>
 <a href="/servlets2/cookie"> Coockie</a>
 <hr>
+<h3> Servlet 7: Session</h3>
+<a href="/servlets2/session"> Session </a>
 </body>
 </html>

@@ -19,15 +19,15 @@ public class SessionServlet extends HttpServlet {
         response.setContentType("text/html");
 
         HttpSession httpSession = request.getSession();
-        if(httpSession.isNew()){
+        if (httpSession.isNew()) {
             writer.println("<h1>Witaj Pierwszy raz na Stronie</h1><br>");
             httpSession.setAttribute(ATTRIBUTE_NAME, 1);
-        }else  if(httpSession.getAttribute(ATTRIBUTE_NAME)==null){
+        } else if (httpSession.getAttribute(ATTRIBUTE_NAME) == null) {
             writer.println("<h1>Witaj Pierwszy raz na tej podstronie</h1><br>");
             httpSession.setAttribute(ATTRIBUTE_NAME, 1);
-        }else {
-            httpSession.setAttribute(ATTRIBUTE_NAME, (int)httpSession.getAttribute(ATTRIBUTE_NAME)+1);
-            writer.println("<h1>Witaj</h1>"+httpSession.getAttribute(ATTRIBUTE_NAME)+" <h1>raz na Stronie</h1><br>");
+        } else {
+            httpSession.setAttribute(ATTRIBUTE_NAME, (int) httpSession.getAttribute(ATTRIBUTE_NAME) + 1);
+            writer.println("<h1>Witaj  " + httpSession.getAttribute(ATTRIBUTE_NAME) + " raz na Stronie</h1><br>");
         }
     }
 }
